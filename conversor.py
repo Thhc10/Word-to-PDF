@@ -1,7 +1,9 @@
 import win32com.client
 import os
 
+# Input the path your folder
 folder = "C:\\Users\\thhc1\\PycharmProjects\\Docx\\in"
+
 wdToPDF = win32com.client.DispatchEx("Word.Application")
 wdFormatPDF = 17
 files = os.listdir(folder)
@@ -17,4 +19,3 @@ for word_file in word_files:
 
     pdfCreate = wdToPDF.Documents.Open(word_path)
     pdfCreate.SaveAs(pdf_path, wdFormatPDF)
-

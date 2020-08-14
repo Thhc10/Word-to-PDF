@@ -1,2 +1,2 @@
 # Word-to-PDF
-A simple converter of Word file (.doc or .docx) to PDF, using Python and Word.
+Um conversor de arquivo Word (.doc ou .docx) para PDF, necessita do Microsoft Word.

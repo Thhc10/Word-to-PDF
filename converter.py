@@ -1,8 +1,8 @@
 import win32com.client
 import os
 
-# Input the path your folder
-folder = "C:\\Users\\thhc1\\PycharmProjects\\Docx\\in"
+# Inserir o caminho para a pasta
+folder = "caminho"
 
 wdToPDF = win32com.client.DispatchEx("Word.Application")
 wdFormatPDF = 17
